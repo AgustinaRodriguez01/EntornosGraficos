@@ -1,3 +1,4 @@
+# Ejercitación 3
 En cada caso, explicar las diferencias entre los segmentos de código y sus visualizaciones
 
 
@@ -144,7 +145,7 @@ Este código HTML muestra una tabla que tiene dos columnas y tres filas, esta ti
         <td>Celda 4</td>
     </tr>
 </table>
-Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. En su lugar el la primera fila usa celdad de datos que adentro contienen div con el texto centrado que adentro con tiene contenido marcado dentro de un tag <strong> que lo muesta en negrita. Esteticamente pueden paracer similares pero tiene signifacado distinto.
+Muestra una tabla similar a la anterior pero las columnas no tienen encabezado. En su lugar en la primera fila usa celdas de datos que adentro contienen div con el texto centrado que adentro contiene contenido marcado dentro de un tag <strong> que lo muesta en negrita. Esteticamente pueden parecer similares pero tiene significado distinto.
 
 
 E-
@@ -279,7 +280,7 @@ H-
     <input type="submit" id="boton2" name="boton2" value="Enviar" />
 </form>
 <!-- ------------------------------------------------------------- -->
-<form id="form3" name="form3" action="mailto:xx@xx.com” enctype=text/plain method="post" target="_blank">
+<form id="form3" name="form3" action="mailto:xx@xx.com” enctype="text/plain" method="post" target="_blank">
     <fieldset>
         <legend>LOGIN</legend>
         Usuario: <input type="text" id="usu3" name="usu3" /> <br/>

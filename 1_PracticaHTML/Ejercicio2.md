@@ -1,4 +1,5 @@
-Ejercitación 2
+# Ejercitación 2
+
 HTML está compuesto por un conjunto de elementos que son la base de su estructura. Los elementos están compuestos por dos tags (el de apertura y el de cierre) y el contenido en el medio (con excepción de los elementos vacíos). Cada tag puede tener atributos (proporcionan ciertas características como altura, ancho, color, etc.) y eventos (asocian un script que se ejecuta cuando el evento ocurre).
 
 Analizar los siguientes segmentos de código indicando en qué sección del documento HTML se colocan, cuál es el efecto que producen y señalar cada uno de los elementos, etiquetas, y atributos(nombre y valor), aclarando si es obligatorio.
@@ -19,7 +20,7 @@ C-
 La etiqueta <img/> es utlizada para colocar una imagen, se coloca dentro del <body> y tiene varios atributos:
 
 src (en este caso no tiene valor), es necesario para indicar que imagen se muestra
-alt cuyo valor es "lugar imagen", necesario para mostrar un texto alternativo cuando no carga la imagen, no es obligarotio pero es buena practica para mejorar la accesibilidad y SEO
+alt cuyo valor es "lugar imagen", necesario para mostrar un texto alternativo cuando no carga la imagen, no es obligatorio pero es buena practica para mejorar la accesibilidad y SEO
 id cuyo valor es "im1", no es obligarotio
 name cuyo valor es "im1", no es obligatorio
 width (ancho) cuyo valor es "32"
@@ -33,7 +34,7 @@ La etiqueta <meta> se usa para declarar metadatos, se usa dentro de <head>. En e
 
 lang cuyo valor es "es", para indicar el lenguaje. Es opcional.
 name cuyo valor es "keywords" que indica al nombre del metadato. Se puede se puede omitir si el metadato que queremos indicar ya tiene un atributo (ej: lang), pero sino es obligatorio.
-content que toma los valores "casa, compra, venta, alquiler" y luego "16-Sep-2019 7:49 PM", indica el valor de un metadato especifivo. Dependeindo de que metadato se trate puede ser obligatorio o no.
+content que toma los valores "casa, compra, venta, alquiler" y luego "16-Sep-2019 7:49 PM", indica el valor de un metadato especifivo. Dependiendo de que metadato se trate puede ser obligatorio o no.
 http-equiv cuyo valor es "expires", sirve para indicar una "directiva pragma", es decir una indicacion para el interptrete de HTML. Es opcional. Se llama asi porque todos los valores que puede tomar son headers http.
 
 E-
@@ -70,7 +71,7 @@ F-
 </table>
 Este fragmento tiene muchas etiquetas realcionadas entre si.
 
-Primero de todo hay un etiqueta <table> la cual permite mostrar una tabla en el <body>.Tiene los squientes atributos:
+Primero de todo hay un etiqueta <table> la cual permite mostrar una tabla en el <body>.Tiene los siguientes atributos:
 
 width (ancho) con valor "200". Opcional.
 summary (resumen) con el valor "Datos correspondientes al ejercicio vencido". Opcional.
