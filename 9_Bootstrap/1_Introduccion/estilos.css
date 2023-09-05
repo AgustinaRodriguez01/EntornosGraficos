@@ -1,0 +1,15 @@
+.contenedor {
+    background-color: #ff00ff;
+    border: 10px;
+    padding: 20px;
+  }
+  
+  .fila {
+    background-color: yellow;
+    padding: 10px;
+  }
+  
+  .columna {
+    background-color: aquamarine;
+    padding: 10px;
+  }
